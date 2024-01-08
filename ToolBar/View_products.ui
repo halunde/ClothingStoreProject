@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Products List</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1901</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="verticalScrollMode">
+     <enum>QAbstractItemView::ScrollPerPixel</enum>
+    </property>
+    <property name="horizontalScrollMode">
+     <enum>QAbstractItemView::ScrollPerPixel</enum>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>250</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Purchase Bill No.</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Supp. Bill</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Barcode</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Product Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Artical No</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>MRP</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Sale Rate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Rate</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Net Amount</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Qty</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Packing</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Storage</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Discont</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>GST</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Debit Note</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Credit Note</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Suplier Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>City</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Payment Mode</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>950</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_9{
+	background-color: qlineargradient(spread:pad, x1:0.097, y1:0.448864, x2:0.631, y2:0.409091, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+
+	color:rgba(255,255,255,210);
+    border-radius:5px;
+}
+QPushButton#pushButton_9:hover{
+	background-color: qlineargradient(spread:pad, x1:0.097, y1:0.448864, x2:0.631, y2:0.409091, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#pushButton_9:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123,111,255);
+}
+
+
+
+
+QPushButton#pushButton_10{
+	background-color:rgba(0,0,0,0);
+	color:rgba(85,98,112,255);
+}
+QPushButton#pushButton_10:hover{
+	color:rgba(131,96,53,255);
+}
+QPushButton#pushButton_10:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	color:rgba(91,88,53,255);
+}</string>
+    </property>
+    <property name="text">
+     <string>EXPORT DATA TO EXCEL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>950</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ClosedHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_11{
+	background-color: qlineargradient(spread:pad, x1:0.097, y1:0.448864, x2:0.631, y2:0.409091, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85, 98, 112, 226));
+
+	color:rgba(255,255,255,210);
+    border-radius:5px;
+}
+QPushButton#pushButton_11:hover{
+	background-color: qlineargradient(spread:pad, x1:0.097, y1:0.448864, x2:0.631, y2:0.409091, stop:0 rgba(150, 123, 111, 219), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#pushButton_11:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(150,123,111,255);
+}
+
+
+
+
+QPushButton#pushButton_12{
+	background-color:rgba(0,0,0,0);
+	color:rgba(85,98,112,255);
+}
+QPushButton#pushButton_12:hover{
+	color:rgba(131,96,53,255);
+}
+QPushButton#pushButton_12:pressed{
+	padding-left:5px;
+	padding-top:5px;
+	color:rgba(91,88,53,255);
+}</string>
+    </property>
+    <property name="text">
+     <string>PRINT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>10</y>
+      <width>581</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>26</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Product List</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>6</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
